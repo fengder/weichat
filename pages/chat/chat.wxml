@@ -1,0 +1,13 @@
+<view class="wrap">
+<view class="containerbox">
+   <view wx:key="{{index}}" wx:for="{{allContentList}}">
+    <view wx:key="{{index}}" wx:if="{{index%2 ==1}}" class="textbox fl">{{item.value}}</view>
+    <view wx:key="{{index}}" wx:if="{{index%2 == 0}}" class="textbox fr">{{item.value}}</view>
+   </view>
+</view>
+
+ <view class="handlebox">
+  <input class="input_submit" bindinput="bindKeyInput" placeholder="点击输入"  />
+  <button bindtap="submitTo" type="submit" class="btn_submit"  size="mini">发送</button>
+ </view>
+</view>

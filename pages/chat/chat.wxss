@@ -1,0 +1,52 @@
+/* pages/chat/chat.wxss */
+.wrap{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.handlebox{
+position: absolute;
+bottom: 0;
+widows: 100%;
+height: 60px;
+background: #eee;
+flex-direction: row;
+}
+.containerbox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 56px;
+}
+.textbox{
+  display: block;
+  text-align: left;
+  max-width: 82%;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 26px;
+  margin: 15px 10px 5px;
+ box-sizing: border-box;
+ padding: 0 5px;
+}
+.fl{float: left;background: paleturquoise}
+.fr{float:right;background:#eee}
+.handlebox{
+  width: 100%;
+  height: 34px;
+  position: fixed;
+  bottom: 0;
+  background: #efefef;
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+.btn_submit{float: right;right: 5px;}
+.input_submit{
+  max-width: 70%;
+  width: 200px;
+  display:inline;
+  float: left;
+  background: #fff;
+  margin: 2px 5px;
+  border-radius: 5px;
+}
